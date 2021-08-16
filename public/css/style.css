@@ -333,6 +333,7 @@ background-color: var(--bs-cyan);
   /*margin: 5px;*/
   border-color: black;
   border-radius: 10px;
+  justify-content: end;
   /*border-style: solid;*/
   /*background-color: whitesmoke;*/
 }
