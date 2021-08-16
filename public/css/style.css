@@ -50,6 +50,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-bluebg: #285a9c;
 }
 
 html, body{
@@ -168,7 +169,7 @@ h1{
   color: whitesmoke;
   font-family: sans-serif;
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 1em;
 }
 
 h2{
@@ -181,7 +182,8 @@ h3{
   color: whitesmoke;
   font-family: sans-serif;
   font-weight: bold;
-  padding-top: 5px;
+  padding-top: 1em;
+  padding-bottom: 2em;
 }
 
 ul{
@@ -210,24 +212,29 @@ ul li a{
 .box10 { background:#16a085;}*/
 
 
-/*code for portrait*/
+/*code for Cover*/
+.intro{
+  background-color: var(--bs-bluebg);
+}
 
 .portrait{
   display: flex;
   align-content: center;
   align-items: center;
+  padding-top: 2em;
   /*flex-wrap: wrap;*/
 }
 
 .box1{
   flex-basis: 200px;
   flex-grow: 1;
-  
+  padding: 1em;
 }
 
 .box2{
   flex-basis: 200px;
   flex-grow: 1;
+  padding: 1em;
 }
 
 .box{
@@ -238,6 +245,8 @@ ul li a{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .custom-line{
@@ -272,6 +281,49 @@ margin: 5px;
 }
 
 
+/*CSS for portfolio section*/
+
+.catContainer{
+  /*display: flex;*/
+  /*background-color: mistyrose;*/
+  /*max-width: 100%;*/
+}
+
+.catImg{
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+
+}
+
+.category{
+  flex-basis: 500px;
+  height: 300px;
+  /*margin: 5px;*/
+  border-color: black;
+  border-radius: 30px;
+  /*border-style: solid;*/
+  /*background-color: whitesmoke;*/
+}
+
+.cat1{
+background-color: var(--bs-purple);
+}
+.cat2{
+background-color: var(--bs-pink);
+}
+.cat3{
+background-color: var(--bs-teal);
+}
+.cat4{
+background-color: var(--bs-green);
+}
+.cat5{
+background-color: var(--bs-yellow);
+}
+.cat6{
+background-color: var(--bs-cyan);  
+}
 
 
 
@@ -401,3 +453,8 @@ margin: 5px;
 
 
 }
+
+
+
+
+
