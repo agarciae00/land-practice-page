@@ -1,6 +1,4 @@
-
 /*Contact form*/
-
 .form-control {
   display: block;
   width: 100%;
@@ -67,9 +65,8 @@
   margin: 0;
   height: 100%;
   width: 100%;
-}
-
-.rounded-circle{
+  
+ .rounded-circle {
   border:1px solid;
   border-radius:50%;
   width:50px;
